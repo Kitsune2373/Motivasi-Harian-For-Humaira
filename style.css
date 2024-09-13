@@ -14,10 +14,11 @@ body {
     border: 5px solid #4CAF50;
     border-radius: 50%;
     background-image: url('humaira.jpg'); /* Ganti URL dengan lokasi gambar profil */
-    background-size: cover; /* Mengisi area dengan gambar */
-    background-position: center; /* Memastikan gambar tetap di tengah */
+    background-size: contain; /* Menggunakan contain agar gambar tetap proporsional */
+    background-position: center; /* Memastikan gambar berada di tengah */
     background-repeat: no-repeat;
     transition: opacity 0.5s ease-in-out;
+    background-color: #fff; /* Tambahkan background warna untuk mengisi ruang kosong */
 }
 
 #quote-card {

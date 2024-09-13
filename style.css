@@ -6,6 +6,7 @@ body {
 
 .profile {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .profile-img {
@@ -14,12 +15,13 @@ body {
     border: 5px solid #4CAF50;
     border-radius: 50%;
     background-image: url('humaira.jpg'); /* Ganti URL dengan lokasi gambar profil */
-    background-size: contain; /* Menggunakan contain agar gambar tetap proporsional */
-    background-position: center; /* Memastikan gambar berada di tengah */
+    background-size: cover; /* Cover untuk mengisi lingkaran tanpa distorsi */
+    background-position: center center; /* Memastikan gambar diposisikan di tengah */
     background-repeat: no-repeat;
     transition: opacity 0.5s ease-in-out;
-    background-color: #fff; /* Tambahkan background warna untuk mengisi ruang kosong */
+    background-color: #fff; /* Tambahkan background putih untuk area kosong */
 }
+
 
 #quote-card {
     background-color: #ffffff;

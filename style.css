@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(135deg, #f0f9ff, #cfe9f3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #4CAF50;
+    border-radius: 50%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#quote-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#quote-card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.quote-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #4CAF50;
+}
+
+#quote-indonesian {
+    font-size: 20px;
+    color: #333;
+}
+
+#quote-english {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Carousel Style */
+.carousel {
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+.carousel-item img {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}

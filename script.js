@@ -42,3 +42,4 @@ document.getElementById('change-quote-btn').addEventListener('click', function()
     document.getElementById('quote-indonesian').innerText = randomQuote.indonesian;
     document.getElementById('quote-english').innerText = randomQuote.english;
 });
+

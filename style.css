@@ -11,9 +11,12 @@ body {
 .profile-img {
     width: 150px;
     height: 150px;
-    object-fit: cover;
     border: 5px solid #4CAF50;
     border-radius: 50%;
+    background-image: url('humaira.jpg'); /* Ganti URL dengan lokasi gambar profil */
+    background-size: cover; /* Mengisi area dengan gambar */
+    background-position: center; /* Memastikan gambar tetap di tengah */
+    background-repeat: no-repeat;
     transition: opacity 0.5s ease-in-out;
 }
 

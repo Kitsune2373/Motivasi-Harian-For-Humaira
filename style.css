@@ -7,7 +7,6 @@ body {
 .profile {
     text-align: center;
     margin-bottom: 20px;
-    
 }
 
 .profile-img {
@@ -16,13 +15,20 @@ body {
     border: 5px solid #4CAF50;
     border-radius: 50%;
     background-image: url('humaira.jpg'); /* Ganti URL dengan lokasi gambar profil */
-    background-size: cover; /* Cover untuk mengisi lingkaran tanpa distorsi */
-    background-position: center center; /* Memastikan gambar diposisikan di tengah */
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     transition: opacity 0.5s ease-in-out;
-    background-color: #fff; /* Tambahkan background putih untuk area kosong */
+    background-color: #fff;
 }
 
+.romantic-text {
+    font-size: 20px;
+    color: #333;
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+}
 
 #quote-card {
     background-color: #ffffff;
@@ -60,21 +66,29 @@ body {
     color: #666;
 }
 
-/* Carousel Style */
+/* Carousel dan Gambar Style */
 .carousel {
-    max-width: 400px;
+    max-width: 600px;
     margin-top: 30px;
 }
 
 .carousel-item img {
-    max-height: 300px;
-    object-fit: cover;
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Pastikan gambar mengisi wadah carousel */
+    max-height: 300px; /* Tinggi maksimum yang diinginkan */
+    object-fit: cover; /* Agar gambar tetap proporsional */
+    margin: 0 auto; /* Menjaga gambar di tengah */
+    transition: none !important; /* Nonaktifkan transisi */
 }
 
-/* Button */
+.carousel-inner {
+    transition: none !important; /* Nonaktifkan transisi antar item carousel */
+}
+
+.row {
+    margin-top: 30px;
+}
+
+/* Tombol Ganti Quote */
 .btn-primary {
     background-color: #4CAF50;
     border: none;
